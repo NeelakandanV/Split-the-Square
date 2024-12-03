@@ -1,0 +1,22 @@
+.MainParent{
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainSquare{
+    cursor: pointer;
+    display: flex;
+    place-items: center;
+    position: relative;
+    left: -200px;
+}
+
+button{
+    position:absolute;
+    top: 500px;
+    cursor: pointer;
+}
